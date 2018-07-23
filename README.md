@@ -9,6 +9,13 @@ This feed includes
 - Tor begin nodes
 - Tor exit nodes
 
+##### PRE-REQUISITES to use dan and DNIF  
+Outbound access required to request dan IP feed API
+
+| Protocol   | Source IP  | Source Port  | Direction	 | Destination Domain | Destination Port  |  
+|:------------- |:-------------|:-------------|:-------------|:-------------|:-------------|  
+| TCP | AD,A10 | Any | Egress	| github.com | 443 |
+| TCP | AD,A10 | Any | Egress	| www.dan.me.uk | 443 | 
 
 ### Using the dan feed API
  The dan feed API is found on github at
